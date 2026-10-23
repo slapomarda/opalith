@@ -30,8 +30,6 @@ A complete, 9-page demonstration textbook titled **"Digital Transmission and Emb
 - **Compiled PDF:** [`demo.pdf`](demo.pdf)
 - **Source Code:** [`examples/demo.tex`](examples/demo.tex)
 
-The showcase document is not a generic macro checklist; it is a coherent academic lecture note covering continuous/discrete Fourier transforms, the Nyquist-Shannon sampling theorem with full proof, active op-amp low-pass filtering, an embedded C interrupt service routine with a circular buffer, and real-time schedulability analysis.
-
 ---
 
 ## Repository Structure
