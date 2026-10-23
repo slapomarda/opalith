@@ -1,0 +1,56 @@
+% main.tex — starting point for your own notes.
+% Compile with:  latexmk main.tex        (or pdflatex twice)
+% Full manual: README.md  ·  Macro reference: docs/MACROS.md
+\documentclass[
+  lang=english,     % english | italian
+  accent=C09000,    % main colour (HTML hex), e.g. 2E7D32 green, CC7221 orange
+  % circuits,       % uncomment to load circuitikz
+  % qed=square,     % end-of-proof symbol: smiley (default) | square
+]{opalith}
+
+% ---- Document information (every field is optional) ------------------------
+\title{Course Title}
+\author{Your Name}
+% \subtitle{Lecture notes}
+% \headertitle{Short title}          % text in the odd-page header
+% \professor{Prof. Jane Doe}
+% \institution{University of Somewhere}
+% \department{Department of Information Engineering}
+% \degree{BSc in Computer Engineering}
+% \coursecode{Course ID: IN01123456 \quad$\cdot$\quad 9 CFU}
+% \academicyear{2026/2027}
+% \logo[0.5\textwidth]{images/logo.png} % skipped if the file does not exist
+% \date{}                             % empty = no date (default: today)
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\chapter{First chapter}
+
+\section{First section}
+
+Write your notes here. Key terms are \uline{underlined} and important words
+are in \textbf{bold}.
+
+\dfn{Name of the concept}{
+  A definition goes inside a light box.
+}
+
+\thm{Name of the result}{
+  Statement of the theorem.
+}
+
+\dem{}{
+  The proof ends with the end-of-proof symbol.
+}
+
+\exer{Short title}{
+  Text of the exercise.
+}
+\begin{Solution}
+  Worked solution.
+\end{Solution}
+
+\end{document}
