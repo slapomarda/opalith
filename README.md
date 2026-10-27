@@ -126,6 +126,3 @@ A dedicated system prompt is available in [`AI_PROMPT.md`](AI_PROMPT.md). It ins
 ## License
 
 Distributed under the [MIT License](LICENSE). You are free to use, modify, and distribute this template for personal and academic work.
-````<FollowUp>
-Vuoi che adatti anche il contenuto di uno degli altri file (ad esempio `AI_PROMPT.md` o `MACROS.md`) per mantenerli coerenti con questa struttura?
-</FollowUp>
