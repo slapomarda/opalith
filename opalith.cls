@@ -261,22 +261,22 @@
 %% =============================================================================
 % Numbered chapters: giant number in the accent colour, black title beside it
 \titleformat{\chapter}[hang]
-  {\normalfont\bfseries}
+  {\normalfont\bfseries\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000}
   {\fontsize{64}{64}\selectfont\textcolor{doc}{\thechapter}}
   {18pt}
   {\Huge\color{black}}
 % Unnumbered chapters (contents, bibliography): same look as standard report
 \titleformat{name=\chapter,numberless}[block]
-  {\normalfont\Huge\bfseries\raggedright}{}{0pt}{}
+  {\normalfont\Huge\bfseries\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000}{}{0pt}{}
 \titlespacing*{name=\chapter,numberless}{0pt}{30pt}{55pt}
 
 % Sections: black bold titles
 \titleformat{\section}
-  {\normalfont\Large\bfseries\color{black}}{\thesection}{0.8em}{}
+  {\normalfont\Large\bfseries\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000\color{black}}{\thesection}{0.8em}{}
 \titleformat{\subsection}
-  {\normalfont\large\bfseries\color{black}}{\thesubsection}{0.8em}{}
+  {\normalfont\large\bfseries\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000\color{black}}{\thesubsection}{0.8em}{}
 \titleformat{\subsubsection}
-  {\normalfont\normalsize\bfseries\color{black}}{\thesubsubsection}{0.8em}{}
+  {\normalfont\normalsize\bfseries\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000\color{black}}{\thesubsubsection}{0.8em}{}
 \titlespacing*{\section}{0pt}{3.2ex plus 1ex minus .2ex}{1.2ex plus .2ex}
 \titlespacing*{\subsection}{0pt}{2.6ex plus 1ex minus .2ex}{0.8ex plus .2ex}
 \titlespacing*{\subsubsection}{0pt}{2.2ex plus 1ex minus .2ex}{0.6ex plus .2ex}
